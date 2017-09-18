@@ -1,0 +1,27 @@
+<!doctype html>
+<head>
+  <meta charset="utf-8">
+  <meta name=author content="Emily Van Laarhoven">
+  <meta name=description content="hw5 page">
+  <meta name=keywords content="">
+  <title>Insert into movie dbe</title>
+  <link rel="stylesheet" href="">
+</head>
+<body>
+
+<!-- Use "flashing to display errors
+<div id="missing_input" ></div>
+<div id="actor_exists" ></div>
+<div id="added_to_db" ></div>
+-->
+
+<h1>Fill out form; all fields required</h1>
+
+<form id="actor-form" action="">
+  <p><label>Actor's ID/NM: <input required name="actornm"></label></p>
+  <p><label>Actor Name: <input required name="actorname"></label></p>
+  <p><label>Actor's Date of Birth: <input required name="actorbirthday"></label></p>
+</form>
+
+</body>
+</html>
